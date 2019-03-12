@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+      <title>Contact - Thuan Dao Personal Portfolio</title>
+      <script src="http://code.jquery.com/jquery-2.1.0.js"></script>
+      <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+      <script src="script04.js"></script>
+      <style type=text/css></style>
+      <link type="text/css" rel = "stylesheet" href="style4.css"/>
+  </head>
+
+  <body>
+    <div id="margin">
+    <header><h1><strong>TD</strong></h1></header>
+    <h2 id="underheader">Senior at KSU</h2>
+    <div class="navigation">
+      <div id="navbar"></div>
+      <ul class="navtop">
+        <li>
+          <a href='home.html'>HOME</a>
+        </li>
+        <li>
+          <a href='about.html'>ABOUT</a>
+        </li>
+        <li>
+          <a href='work.html'>WORK</a>
+        </li>
+        <li>
+          <a href='contact.html'>CONTACT</a>
+        </li>
+      </ul>
+    </div>
+    <div class= "container">
+      <div class="intro">
+        <h1>Nice to Meet You</h1>
+        <p>What would you like to talk about?</p>
+      </div>
+      <form id="contact_form" method="post" action="#">
+        <fieldset>
+          <label for="form-name">Name:</label>
+          <input required type="text" id="form-name" value="Enter Your Name *" size="35" class="text">
+        </fieldset>
+        <fieldset>
+          <label for="form-email">Email:</label>
+          <input required type="text" id="form-email" value="Enter your E-mail Address *" size="35" class="text">
+        </fieldset>
+        <fieldset>
+          <label for="form-subject">Subject:</label>
+          <input required type="text" id="form-subject" value="Enter your Subject *" size="35" class= "text">
+        </fieldset>
+        <fieldset class="required last">
+          <label for="form-content">Message:</label>
+          <textarea name="text" id="form-content" cols="40" rows="5"></textarea>
+        </fieldset>
+        <input type="submit" name="submit" value="Send" class="button" id="button">
+        <div class="info">
+          <p>
+            Please do not send any business inquiries through here as this website was meant as a final project for my Web Design and Development course.
+            Meaning, no one will ever see your message :(.
+          </p>
+        </div>
+      </form>
+    </div>
+    <div class="navigation2">
+      <ul class="navbot">
+        <li>
+          <a href='home.html'>HOME</a>
+        </li>
+        <li>
+          <a href='about.html'>ABOUT</a>
+        </li>
+        <li>
+          <a href='work.html'>WORK</a>
+        </li>
+        <li>
+          <a href='contact.html'>CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <footer>
+    <p class ="copyright">© Copyright 2015 Thuan Dao</p>
+  </footer>
+  </body>
+</html>
