@@ -1,0 +1,340 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div#margin{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: lighter;
+  top: -35px;
+  position: relative;
+}
+
+h2#underheader {
+  position: relative;
+  top: -100px;
+}
+
+body {
+  background: #333;
+  color:#fff;
+  text-align:center;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+
+div#navbar {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 41px;
+  background: #fff;
+  top: 144px;
+}
+
+.navtop {
+  position: absolute;
+  top: 7em;
+  width: 96%;
+  height: 41px;
+  background: inherit;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 24px;
+}
+
+.navtop li {
+  display: inline-block;
+  padding: 0 100px;
+}
+
+.navtop li a {
+  margin: 0 auto;
+	color: #333;
+  text-decoration: none;
+}
+
+.navtop li a:hover {
+	color: #43BFC7;
+  border-bottom: 2px solid #43BFC7;
+  padding: 0 0;
+}
+
+ul#navside {
+  position: fixed;
+  margin: 0px;
+  padding: 0px;
+  top: 280px;
+  left: 0px;
+  list-style: none;
+  z-index:9999;
+}
+
+ul#navside li {
+  width: 100px;
+}
+
+ul#navside li a {
+  display: block;
+  margin-left: -2px;
+  width: 100px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: 1px solid #AFAFAF;
+  opacity: 0.6;
+  color: black;
+  font-size: 18px;
+  font-weight: lighter;
+  text-decoration: none;
+}
+
+ul#navside li a span {
+  position: relative;
+  bottom: -50px;
+  background-color: #333;
+  opacity: 0.6;
+}
+
+ul#navside li a:hover {
+  opacity: 1.0;
+  color: white;
+}
+
+
+ul#navside .who a{
+  background-image:url("https://i.imgur.com/yW8zMvT.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+ul#navside .exp a{
+  background-image:url("http://www.officialpsds.com/images/thumbs/Gentlemans-Glasses-Vector-psd102622.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+ul#navside .edu a{
+  background-image:url("https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Kent_State_athletic_logo.svg/1280px-Kent_State_athletic_logo.svg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+ul#navside .cap a{
+  background-image:url("http://www.umsystem.edu/media/images/Adobe-Touch-Apps-Family-Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+img#profpic {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  margin: 0;
+  padding: 0;
+  right: 190px;
+  top: 310px;
+  display: none;
+}
+
+img#logo1 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 885px;
+  opacity: 0;
+}
+
+img#logo2 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1030px;
+  opacity: 0;
+}
+
+img#logo3 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1190px;
+  opacity: 0;
+}
+
+img#logo4 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1340px;
+  opacity: 0;
+}
+
+img#logo5 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1570px;
+  opacity: 0;
+}
+
+img#logo6 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1710px;
+  opacity: 0;
+}
+
+img#logo7 {
+  position: absolute;
+  width: 350px;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  float: right;
+  right: 190px;
+  top: 1850px;
+  opacity: 0;
+}
+
+.me a {
+  display: none;
+}
+
+.me, .expe, .educ, .caps {
+  text-decoration: underline;
+  right: 250px;
+  top: -40px;
+  font-size: 60px;
+  font-weight: bolder;
+  position: relative;
+  letter-spacing: 5px;
+}
+
+.expe, .educ, .caps {
+  opacity: 0;
+}
+
+.aboutme {
+  position: relative;
+  right: 250px;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 50px;
+  line-height: 25px;
+  display: none;
+}
+
+ul#myexp, #listofedu, #listofpro {
+  right: 270px;
+  max-width: 300px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  position: relative;
+  list-style: none;
+  bottom: 50px;
+  font-size: 20px;
+  line-height: 30px;
+  opacity: 0;
+}
+
+li#listofskills {
+  float: right;
+  position: relative;
+  left: 430px;
+  bottom: 287px;
+}
+
+ul li ul li {
+  list-style: none;
+  font-size: 15px;
+  position: relative;
+  right: 20px;
+}
+
+footer p.copyright {
+  padding-top: 10px;
+  position: relative;
+  top: 230px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  line-height: 15px;
+  float: right;
+  left: 84px;
+}
+
+.navbot {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  height: 10px;
+  background: inherit;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 0 0;
+  bottom: -250px;
+}
+
+.navbot li {
+  display: inline-block;
+  font-stretch: condensed;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.navbot li a {
+	background: #333;
+	color: #fff;
+  border-right: 0px solid #fff;
+}
+
+.navbot li a:hover {
+	color: #43BFC7;
+}

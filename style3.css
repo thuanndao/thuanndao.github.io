@@ -1,0 +1,234 @@
+html {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+div#margin{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+header h1 {
+  font-size: 100px;
+  font-weight: lighter;
+  top: -35px;
+  position: relative;
+}
+
+h2#underheader {
+  position: relative;
+  top: -100px;
+}
+
+body {
+  background-color: #333;
+  color:#fff;
+  text-align:center;
+  font-family: arial;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+.projects {
+  width: 900px;
+  margin: 0 auto 60px;
+  overflow: hidden;
+}
+
+.projects .project {
+  width: 270px;
+  float: left;
+  margin: 0 30px 30px 0;
+  background: #282320;
+}
+
+.projects .project a {
+  display: block;
+  overflow: hidden;
+  width: 270px;
+  height: 270px;
+  position: relative;
+}
+
+.projects .project a span {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.5;
+}
+
+.projects .project img {
+  margin: 0;
+  padding: 0;
+}
+
+.projects .project .info {
+  padding: 13px;
+}
+
+.projects .project h3 {
+  position: relative;
+  left: 20px;
+  bottom: 18px;
+  font-size: 18px;
+  letter-spacing: -.04em;
+  color: white;
+  font-weight: 400;
+  text-align: left;
+}
+
+.projects .project p {
+  position: relative;
+  left: 20px;
+  bottom: 21px;
+  text-transform: uppercase;
+  font-weight: normal;
+  padding: 0;
+  font-size: 10px;
+  letter-spacing: .16em;
+  margin: 0;
+  text-align: left;
+}
+
+div#navbar {
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 41px;
+  background: #fff;
+  top: 144px;
+}
+
+.navtop {
+  position: absolute;
+  top: 7em;
+  width: 96%;
+  height: 41px;
+  background: inherit;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  padding: 0 24px;
+}
+
+.navtop li {
+  display: inline-block;
+  padding: 0 100px;
+}
+
+.navtop li a {
+  margin: 0 auto;
+	color: #333;
+  text-decoration: none;
+}
+
+.navtop li a:hover {
+	color: #43BFC7;
+  border-bottom: 2px solid #43BFC7;
+  padding: 0 0;
+}
+
+
+p#welcome {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  font-size: 50px;
+  margin-left:auto;
+  margin-right:auto;
+  bottom: 0px;
+}
+
+p#intro {
+  position: relative;
+  max-width: 300px;
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 15px;
+}
+
+img#img1 {
+  position:absolute;
+  width: 300px;
+  height: 300px;
+  left: 100px;
+  bottom: 200px;
+}
+
+img#img2 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 100px;
+  bottom: -200px;
+}
+
+img#img3 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 100px;
+  bottom: 200px;
+}
+
+img#img4 {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  right: 100px;
+  bottom: -200px;
+}
+
+footer p.copyright {
+  padding-top: 10px;
+  position: relative;
+  top: 240px;
+  padding-bottom: 10px;
+  font-size: 10px;
+  line-height: 15px;
+}
+
+.navbot {
+  position: relative;
+  bottom: 5px;
+  width: 100%;
+  height: 10px;
+  background: inherit;
+  font-family: arial, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 15px;
+  padding: 0 0;
+  bottom: -250px;
+}
+
+.navbot li {
+  display: inline-block;
+  font-stretch: condensed;
+  font-size: 12px;
+  padding: 0 20px;
+}
+
+.navbot li a {
+	background: #333;
+	color: #fff;
+  border-right: 0px solid #fff;
+}
+
+.navbot li a:hover {
+	color: #43BFC7;
+}
